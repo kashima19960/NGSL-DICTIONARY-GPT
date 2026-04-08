@@ -1,0 +1,44 @@
+# ---- Python virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Python cache / build artifacts ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.nox/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+
+# ---- MkDocs output ----
+site/
+
+# ---- Environment / local config ----
+.env
+.env.*
+.python-version
+
+# ---- Editor / OS files ----
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
