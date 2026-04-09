@@ -187,6 +187,12 @@ mkdocs serve
 
 ### 3) 严格构建
 
+可选：若你想屏蔽 Material 的 MkDocs 2.0 通用提示，可先设置环境变量：
+
+- PowerShell：`$env:NO_MKDOCS_2_WARNING='true'`
+- CMD：`set NO_MKDOCS_2_WARNING=true`
+- Bash：`export NO_MKDOCS_2_WARNING=true`
+
 ```bash
 mkdocs build --strict
 ```
